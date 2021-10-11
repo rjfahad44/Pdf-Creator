@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create PDF"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/NameET"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="name"
+        android:layout_gravity="center"
+        android:autofillHints="none"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/EmailET"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:layout_gravity="center"
+        android:autofillHints="none"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/NumberET"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Number"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:autofillHints="none" />
+
+    <Button
+        android:id="@+id/SaveET"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Save into PDF"
+        android:textAllCaps="false"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
